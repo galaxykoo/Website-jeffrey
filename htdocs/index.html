@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<script
+src="index.js">
+</script>
+<body>
+
+<h1>Flip the card to know the pokemon</h1>
+<h3>Hover over the image below:</h3>
+
+<div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Pikachu.png" alt="Pikachu" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Pikachu</h1>
+      <p>Type: Electric</p>
+      <p>Mouse pokemon</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Charizard.png" alt="Charizard" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Charizard</h1>
+      <p>Type: fire and fly</p>
+      <p>Flame pokemon</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Snorlax.png" alt="Snorlax" style="width:300px;height:300px;;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Snorlax</h1>
+      <p>Type: normal</p>
+      <p>Sleeping pokemon</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<button type="button" class="knop1" onclick="Pikachu()" >Pikachu</button>
+<button type="button" class="knop2"onclick="Charizard()" >Charizard</button>
+<button type="button" class="knop3"onclick="Snorlax()" >Snorlax</button>
+
+<?php
+echo "Today is " . ("Y/m/d") . "<br>";
+?>
+
+
+</body>
+</html>
